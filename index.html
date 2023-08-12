@@ -5,14 +5,15 @@
    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
    <title>Nicole-Feltrin-UX-UI-Designer</title>
-   <link rel='stylesheet' href='styles.css'>
+   <link rel="icon" type="image/x-icon" href="asset/favicon.png">
+   <link rel='stylesheet' href='asset/styles.css'>
 </head>
 
 <body>
 
 <!--nav-->
 <div class= 'nav'>
-  <img src='images/n poppins.png' width="10%">
+  <img src='asset/n poppins.png' alt="logo" width="10%">
     <ul class='nav-links'>
       <li><a href='#presentation'>CHI SONO</a></li>
       <li><a href='#works'>PORTFOLIO</a></li>
@@ -60,7 +61,7 @@
 <div class='presentation-container' id='presentation'>
   <div class='foto-container'>
     <div class='foto'>
-     <img src='images/profilo.jpg' width='100%' class='imageborder'>
+     <img src='asset/profilo.jpg' alt="foto profilo" width='100%' class='imageborder'>
     </div>
  </div>
    <div class='presentation-content'>
@@ -131,7 +132,7 @@
       </div>
       <div class='card-body'>
         <p> Realizzazione di un prototipo di UI - versione desktop e mobile </p>
-        <a href='https://drive.google.com/file/d/1GsIBBmR-ilq-Eugqy59bx4Dqtq8SaVBv/view?usp=sharing' class=btn>Scopri</a>
+        <a href='https://drive.google.com/file/d/1GsIBBmR-ilq-Eugqy59bx4Dqtq8SaVBv/view?usp=sharing' target="_blank" rel = “noopener” class=btn>Scopri</a>
       </div>
     </div>
 
@@ -141,7 +142,7 @@
       </div>
       <div class='card-body'>
         <p> Realizzazione del mio sito personale, con funzione di portfolio  </p>
-        <a href='https://drive.google.com/file/d/10KRlkuAS7sqnGnVZQwhpkARx5e-xLRhZ/view?usp=drive_link' class=btn>Scopri</a>
+        <a href='https://drive.google.com/file/d/10KRlkuAS7sqnGnVZQwhpkARx5e-xLRhZ/view?usp=drive_link' target="_blank" rel = “noopener” class=btn>Scopri</a>
       </div>
     </div>
 
@@ -167,12 +168,12 @@
       <h3><strong>CONTATTAMI</strong></h3>
       <p>Se vuoi metterti in contatto con me, mi trovi su questi Social.
         <br> 
-        Se invece vuoi propormi una collaborazione o hai qualche domanda da farmi, puoi compilare il form qui sotto, ti risponderò il prima possibile!</p>
+        Se invece vuoi propormi una collaborazione o hai qualche domanda da farmi, puoi compilare il form qui sotto, ti risponderò il prima possibile!</p>
       
        <!--social!-->
           <div class='social-container'>
-             <a href='https://instagram.com/simply.niky/' target="_blank"><img src='images/instagram.svg' width='40'></a>
-             <a href='https://www.linkedin.com/in/nicolefeltrin' target="_blank"><img src='images/linkedin.svg' width='40'></a>
+             <a href='https://instagram.com/simply.niky/' target="_blank"><img src='asset/instagram.svg' width='40'></a>
+             <a href='https://www.linkedin.com/in/nicolefeltrin' target="_blank"><img src='asset/linkedin.svg' width='40'></a>
           </div>
         
     </div>
@@ -183,7 +184,7 @@
 <!-- Back to top button -->
 <a href="#" class="float">
   <i class="my-float">
-  <img src='images/arrow-up.svg' width='40'>
+  <img src='asset/arrow-up.svg' alt="freccia per tornare in alto" width='40'>
   </i>
 </a>
 
@@ -194,13 +195,13 @@
           <div class="contact-form">
               <form action="mailto:contact@youremail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
                   Nome:<br>
-                  <input type="text" size="100" name="Contact-Name" placeholder="*Il tuo nome:"><br><br>
+                  <input type="text" required size="100" name="Contact-Name" placeholder="*Il tuo nome:"><br><br>
                   Email:<br>
-                  <input type="email" size="100" name="Contact-Email" placeholder="*E-Mail:"><br><br> 
+                  <input type="email" required size="100" name="Contact-Email" placeholder="*E-Mail:"><br><br> 
                   Città, Nazione:<br>
                   <input type="text" size="100" name="Location" placeholder="Città, Nazione:"><br><br>
                   Testo:<br> 
-                  <textarea name="Contact-Message" rows="5" cols="105" placeholder="*Scrivi qui il tuo messaggio"></textarea>
+                  <textarea name="Contact-Message" required rows="5" cols="105" placeholder="*Scrivi qui il tuo messaggio"></textarea>
                   <br><br> 
                   <a href="mailto:n.design@outlook.it" class="button" type="submit">Invia</a>
                   
@@ -211,7 +212,5 @@
   </section>
 
 </footer>
-
-<script src='main.js'></script>
 </body>
 </html>
