@@ -1,5 +1,6 @@
 Ciao! Mi chiamo Nicole, sono appassionata di Design e comunicazione visiva.
-Questo è il mio progetto di HTML/CSS che consisteva nella realizzazione di un sito personale, con funzione fdi portfolio.
+
+Questo è il mio progetto di HTML/CSS che consiste nella realizzazione di un sito personale, con funzione di portfolio.
 
 Il sito ha due pagine:
 - La pagina principale che contiene alcune informazioni su di me, il mio percorso di formaione, alcuni progetti svolti e un form per contattarmi.
