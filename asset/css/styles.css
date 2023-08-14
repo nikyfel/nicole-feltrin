@@ -517,6 +517,10 @@ h1 h2 h3 h4 {
   padding-left: 0px;
   padding-right: 0px;
  }
+
+ .nav img {
+  width: 15%;
+  }
 	
 .presentation-container p {
   justify-content: right;
@@ -645,6 +649,10 @@ h3 {
   padding-left: 30px;
   padding-right: 30px;
 }
+
+.nav img {
+  width: 15%;
+  }
 
 p {
   font-size: 14px;
