@@ -82,10 +82,10 @@ html {
   z-index: 999;
 }
 
-.responsivelogo {
-  width: 50%;
-  height: 50%;
+.nav img {
+width: 15%;
 }
+
 
 .nav-links{
  display: flex;
@@ -304,6 +304,10 @@ padding: auto;
 .social-container a {
   margin-left: 12px;
   margin-right: 12px;
+}
+
+.social-container img {
+  width: 40;
 }
 
 /*works*/
