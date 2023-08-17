@@ -200,8 +200,8 @@ width: 15%;
    padding-left:100px;
 }
 
-.foto {
- width: 500px;
+.foto img {
+ width: 100%;
 }
 
 .imageborder {
@@ -401,16 +401,20 @@ padding: auto;
 	height:60px;
 	bottom:40px;
 	right:40px;
-	color:#FFF;
+	color:black;
 	border-radius:50px;
 	text-align:center;
-        background: #c1873d 0%;
-        box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.25);
-        padding: 8px;
+  background: #c1873d 0%;
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.25);
+  padding: 8px;
 }
 
 .my-float{
 	margin-top:22px;
+}
+
+.my-float img {
+  width: 100%;
 }
 
 .float:hover{
@@ -521,6 +525,10 @@ h1 h2 h3 h4 {
  .nav img {
   width: 15%;
   }
+
+  .foto img {
+    width: 50%;
+   }
 	
 .presentation-container p {
   justify-content: right;
@@ -680,7 +688,6 @@ p {
 	
 .foto {
  display:none; 
- width: 300px; 
 }
 
 /*presentation*/
@@ -840,6 +847,10 @@ p {
    height:60px;
    bottom:40px;
    right:30px;
+}
+
+.my-float img {
+  width: 50%;
 }
 
 .float:active{
